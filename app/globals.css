@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 4%; /* Dark background */
+    --foreground: 0 0% 98%; /* Light text */
+    --card: 240 6% 10%; /* Dark card */
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 4%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 212 100% 50%; /* Apple Blue */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 6% 10%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 240 6% 10%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 100% 67%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 6% 20%;
+    --input: 240 6% 20%;
+    --ring: 212 100% 50%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Apple-style gradients */
+.apple-gradient {
+  background: linear-gradient(135deg, hsl(212, 100%, 50%) 0%, hsl(280, 100%, 70%) 100%);
+}
+
+.apple-gradient-subtle {
+  background: linear-gradient(135deg, hsl(240, 10%, 4%) 0%, hsl(240, 6%, 10%) 100%);
+}
