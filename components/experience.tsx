@@ -68,6 +68,7 @@ export default function Experience() {
         "Set up database schema and relations using Prisma ORM with PostgreSQL to support the recommendation system",
         "Implemented initial API integration with OpenAI to enable natural language understanding capabilities",
         "Laid the groundwork for a system that could transform educational guidance through conversational AI",
+        "The website: https://tercihrehberim.com/chatbot",
       ],
     },
     {
