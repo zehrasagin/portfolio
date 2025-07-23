@@ -6,7 +6,6 @@ import Experience from "@/components/experience"
 import Education from "@/components/education"
 import Projects from "@/components/projects"
 import Contact from "@/components/contact"
-import ThemeToggle from "@/components/theme-toggle"
 
 export const metadata: Metadata = {
   title: "Full-Stack Developer Portfolio",
@@ -17,7 +16,6 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <div className="fixed top-4 right-4 z-50">
-        <ThemeToggle />
       </div>
       <Hero />
       <About />
