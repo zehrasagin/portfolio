@@ -14,6 +14,7 @@ type Experience = {
 }
 
 export default function Experience() {
+  // ...existing code...
   const experiences: Experience[] = [
     {
       company: "Netaş Telekomünikasyon A.Ş.",
@@ -104,7 +105,7 @@ export default function Experience() {
   ]
 
   return (
-    <section className="py-20 px-4 md:px-6 lg:px-8 bg-gradient-to-br from-muted/50 to-background scroll-mt-16">
+    <section id="experience" className="py-20 px-4 md:px-6 lg:px-8 bg-gradient-to-br from-muted/50 to-background scroll-mt-16">
       <div className="container mx-auto max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -38,7 +38,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             size="lg"
-            onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
+            onClick={() => document.getElementById("experience")?.scrollIntoView({ behavior: "smooth" })}
             className="bg-primary hover:bg-primary/90 text-white font-medium"
           >
             View Projects
